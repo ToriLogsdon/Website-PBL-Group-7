@@ -1,0 +1,15 @@
+/* Base Typography */
+html {{ box-sizing: border-box; }}
+*, *::before, *::after {{ box-sizing: inherit; }}
+body {{ font-family: Arial, Helvetica, sans-serif; line-height: 1.5; margin: 0; padding: 0 1rem; max-width: 900px; }}
+h1, h2, h3 {{ line-height: 1.2; }}
+nav a {{ margin-right: 1rem; text-decoration: none; }}
+
+/* Layout */
+header, footer {{ padding: 1rem 0; }}
+main section {{ margin: 1rem 0; }}
+
+/* Helpers */
+img {{ max-width: 100%; height: auto; display: block; }}
+a:focus {{ outline: 2px solid #000; outline-offset: 2px; }}
+body 
